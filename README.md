@@ -1,2 +1,5 @@
-# API_Hamburgabana
-La api REST del siyio de la tienda Hamburgabana, hecha con express
+#Hamburgabana API Rest
+<div align="center">
+	La api REST del sitio de la tienda Hamburgabana, hecha con Express.
+	<hr>
+</div>
