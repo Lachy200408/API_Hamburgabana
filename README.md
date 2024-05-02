@@ -19,3 +19,7 @@ Los datos del menu estan divididos por orden de relevancia para los clientes:
 La esencia del servicio es dar el menu parcialmente para renderizar los datos necesarios
 en cada momento de la aplicacion por lo que se deben insertar <em>query-params</em> en
 la request.
+
+### Herramientas:
+<li>idGenerator.js => Script que imprime en consola in ID nuevo.</li>
+<li>prueba-servicio.html => Documento para probar el servicio antes de utilizarlo en el sitio oficial.</li>
