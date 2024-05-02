@@ -14,3 +14,8 @@ Los datos del menu estan divididos por orden de relevancia para los clientes:
 <li>Hamburguesas(el plato principal)</li>
 <li>Bebidas</li>
 <li>Postres</li>
+
+### El servicio basico en vanilla javascript se encuentra en <em>server-vanilla.js</em>
+La esencia del servicio es dar el menu parcialmente para renderizar los datos necesarios
+en cada momento de la aplicacion por lo que se deben insertar <pre>query-params</pre> en
+la request.
