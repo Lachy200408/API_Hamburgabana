@@ -16,11 +16,11 @@ y cada uno de los items(platillos) del menu.
 <li>Bebidas</li>
 <li>Postres</li>
 
-### El servicio basico en vanilla javascript se encuentra en <em><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/menu.json">server-vanilla.js</a></em>
+### El servicio basico en vanilla javascript se encuentra en <em><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/server-vanilla.js">server-vanilla.js</a></em>
 La esencia del servicio es dar el menu parcialmente para renderizar los datos necesarios
 en cada momento de la aplicacion por lo que se deben insertar <em>query-params</em> en
 la request.
 
 ### Herramientas:
-<li><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/menu.json">idGenerator.js</a> => Script que imprime en consola in ID nuevo.</li>
-<li><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/menu.json">prueba-servicio.html</a> => Documento para probar el servicio antes de utilizarlo en el sitio oficial.</li>
+<li><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/idGenerator.js">idGenerator.js</a> => Script que imprime en consola in ID nuevo.</li>
+<li><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/prueba-servicio.html">prueba-servicio.html</a> => Documento para probar el servicio antes de utilizarlo en el sitio oficial.</li>
