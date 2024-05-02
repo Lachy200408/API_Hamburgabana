@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>
 		Hamburgabana API Rest
-		<h4>La API REST del sitio de la tienda Hamburgabana, hecha con Express.</h4>
+		<h2>La API REST del sitio de la tienda Hamburgabana, hecha con Express.</h2>
 	</h1>
 </div>
 
