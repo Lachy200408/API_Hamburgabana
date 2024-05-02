@@ -17,9 +17,10 @@ app.get('/menu', (req, res) => {
 
 //* GET de los tipos de productos en el menu
 app.get('/menu/kinds', (req, res) => {
-  const menuKinds = {
-    kinds: Object.keys(menuJson)
-  }
+  const menuKinds = menuJson.map(menu => {
+    const { kind, thumbnail } = menu
+    return { kind, thumbnail }
+  })
 
   res.send(JSON.stringify(menuKinds))
 })
@@ -27,8 +28,10 @@ app.get('/menu/kinds', (req, res) => {
 //* GET del menu de un tipo de producto especifico
 app.get('/menu/:kind', (req, res) => {
   const { kind } = req.params
-  if (menuJson[kind]) {
-    return res.send(menuJson[kind])
+  const menuSelected = menuJson.find(menu => menu.kind === kind)
+
+  if (menuSelected) {
+    return res.send(menuSelected)
   }
   res.status(404).send(JSON.stringify({ message: 'Recurso no encontrado.' }))
 })
@@ -36,11 +39,12 @@ app.get('/menu/:kind', (req, res) => {
 //* GET de los items especificos
 app.get('/menu/:kind/:id', (req, res) => {
   const { kind, id } = req.params
+  const menuSelected = menuJson.find(menu => menu.kind === kind)
 
   //* Valida que exista el tipo de producto en el menu
-  if (menuJson[kind]) {
+  if (menuSelected) {
     //* Valida que exista el id en el menu de ese tipo de producto
-    const itemHamburguesa = menuJson[kind].find(hamburguesa => hamburguesa.id === id)
+    const itemHamburguesa = menuSelected.products.find(hamburguesa => hamburguesa.id === id)
     if (itemHamburguesa) {
       return res.send(JSON.stringify(itemHamburguesa))
     }

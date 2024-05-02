@@ -1,0 +1,11 @@
+
+GET http://localhost:3000/menu
+
+###
+GET http://localhost:3000/menu/kinds
+
+###
+GET http://localhost:3000/menu/hamburguesas
+
+###
+GET http://localhost:3000/menu/hamburguesas/71cbc689-983f-47d7-8da3-569ffe435468

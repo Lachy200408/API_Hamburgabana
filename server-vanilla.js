@@ -1,3 +1,9 @@
+/**
+ * Este código está obsoleto, el correcto es el del servidor de express.
+ * Quienquiera que lea esto, si decide arreglar este código en relación al
+ * Json, que lo haga. Gracias.
+ */
+
 const http = require('node:http')
 const menuJson = require('./menu.json')
 
