@@ -1,0 +1,62 @@
+{
+	"hamburguesas": [
+		{
+			"id": "71cbc689-983f-47d7-8da3-569ffe435468",
+			"nombre": "Hamburguesa simple",
+			"descripcion": "Un pan con hamburguesa de cerdo, pollo o res pasada por la plancha, con queso, lechuga, tomates, pepinos y cebolla.",
+			"imagen": "/design/hamburguesa-simple.webp",
+			"rate": 3,
+			"precio": 150
+		},
+		{
+			"id": "3cd55da5-5577-47df-935c-3d4e773f736b",
+			"nombre": "Hamburguesa doble",
+			"descripcion": "La clásica hamburguesa doble de carne de cerdo, pollo y res con vegetales salteados y queso derretido por encima.",
+			"imagen": "/design/hamburguesa-queso-doble.webp",
+			"rate": 5,
+			"precio": 300
+		},
+		{
+			"id": "5d2e3a13-a8de-4115-8a58-3dd77582fa54",
+			"nombre": "Especial mayonesa",
+			"descripcion": "Hamburguesa simple con queso y vegetales aderezada con salsa mayonesa por encima de la carne cocidana al gusto.",
+			"imagen": "/design/hamburguesa-simple-mayonesa.webp",
+			"rate": 3,
+			"precio": 160
+		},
+		{
+			"id": "a8f3535e-2a01-4f76-b995-a0c4fc40cfec",
+			"nombre": "Mega burger",
+			"descripcion": "Un pan con multiples capas de hamburguesas de varias carnes y quesos, con tomates, pepinillos, lechuga y cebolla.",
+			"imagen": "/design/mega-burger.webp",
+			"rate": 4.5,
+			"precio": 600
+		},
+		{
+			"id": "ef7b5518-ea4a-4556-bb9a-dddfa760aab7",
+			"nombre": "Sandwich imperial",
+			"descripcion": "Un sandwich de varios niveles con abundante queso, mayonesa, bacon, lechuga, tomate, cebolla y lomo de cerdo.",
+			"imagen": "/design/sandwich-imperial.webp",
+			"rate": 4,
+			"precio": 600
+		},
+		{
+			"id": "ef7b5518-ea4a-4556-bb1a-dddfa360aab7",
+			"nombre": "Hotdog simple",
+			"descripcion": "Un pan con perro caliente con ketchup, mostaza, mayonesa al gusto y cebollas caramelizadas encima.",
+			"imagen": "/design/hotdog-simple.webp",
+			"rate": 5,
+			"precio": 150
+		},
+		{
+			"id": "ef7b5518-ea4a-4556-bb1a-dddfa360aab7",
+			"nombre": "Hotdog doble",
+			"descripcion": "Un pan con dos perros calientes acompanado de la clasica mostaza, el ketchup y con cebollas caramelizadas encima.",
+			"imagen": "/design/hotdog-doble.webp",
+			"rate": 4,
+			"precio": 300
+		}
+	],
+	"bebidas": [],
+	"postres": []
+}

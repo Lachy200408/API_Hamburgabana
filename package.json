@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"> \t<h1>Hamburgabana API Rest</h1> \t<h3>La API REST del sitio de la tienda Hamburgabana, hecha con Express.</h3> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

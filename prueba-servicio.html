@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba</title>
+</head>
+<body>
+	<main></main>
+	<script>
+		fetch('http://localhost:3000/menu')
+		.then(res => res.json())
+		.then(menu => {
+			const mainText = menu.hamburguesas.sort((a, b) => a.rate - b.rate).map(hamburguesa => {
+				return `
+					<article data-id="${hamburguesa.id}">
+						<h1>${hamburguesa.nombre}</h1>
+						<img src="${hamburguesa.imagen}" alt="${hamburguesa.nombre}">
+						<p>${hamburguesa.descripcion}</p>
+						<figure>${hamburguesa.rate}</figure>
+						<span>${hamburguesa.precio}</span>
+					</article>
+				`
+			}).join('')
+
+			document.querySelector('main').innerHTML = mainText
+		})
+	</script>
+</body>
+</html>
