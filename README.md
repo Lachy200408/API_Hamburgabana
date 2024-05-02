@@ -11,7 +11,7 @@ y cada uno de los items(platillos) del menu.
 
 ### La informacion de la API basica se encuentra en el archivo <em><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/menu.json">menu.json</a></em>
 
-### Los datos del menu estan divididos por orden de relevancia para los clientes:
+Los datos del menu estan divididos por orden de relevancia para los clientes:
 <li>Hamburguesas(el plato principal)</li>
 <li>Bebidas</li>
 <li>Postres</li>
