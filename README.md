@@ -24,3 +24,6 @@ la request.
 ### Herramientas:
 <li><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/idGenerator.js">idGenerator.js</a> => Script que imprime en consola in ID nuevo.</li>
 <li><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/prueba-servicio.html">prueba-servicio.html</a> => Documento para probar el servicio antes de utilizarlo en el sitio oficial.</li>
+
+### La API terminada en Express está en el archivo em><a href="https://github.com/Lachy200408/API_Hamburgabana/blob/main/server-express.js">server-express.js</a></em>
+Se integran las rutas de los items especificos en los menus; de los menus especificos de cada tipo y los nombres de los tipos.
