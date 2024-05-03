@@ -4,18 +4,16 @@ const menuJson = require('./menu.json')
 const app = express()
 app.disable('x-powered-by')
 
-// const ALLOWED_SITES = [
-//   'https://hamburgabana.onrender.com',
-//   'http://localhost:8080'
-// ]
+const ALLOWED_SITES = [
+  'https://hamburgabana.onrender.com',
+  'http://localhost:8080'
+]
 
 app.use((req, res, next) => {
-  // const origin = req.header('origin')
-  // if (ALLOWED_SITES.includes(origin) || !origin) {
-  //   res.setHeader('Access-Control-Allow-Origin', origin)
-  // }
-
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  const origin = req.header('origin')
+  if (ALLOWED_SITES.includes(origin) || !origin) {
+    res.setHeader('Access-Control-Allow-Origin', origin)
+  }
   res.setHeader('Content-Type', 'application/json; charset=utf-8')
   next()
 })
