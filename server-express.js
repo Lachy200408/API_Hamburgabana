@@ -12,7 +12,7 @@ const ALLOWED_SITES = [
 app.use((req, res, next) => {
   const origin = req.header('origin')
   if (ALLOWED_SITES.includes(origin) || !origin) {
-    res.setHeader('Access-Control-Allow-Origin', origin)
+    res.setHeader('Access-Control-Allow-Origin', '*')
   }
   res.setHeader('Content-Type', 'application/json; charset=utf-8')
   next()
