@@ -4,7 +4,7 @@
   "description": "<div align=\"center\"> \t<h1>Hamburgabana API Rest</h1> \t<h3>La API REST del sitio de la tienda Hamburgabana, hecha con Express.</h3> </div>",
   "main": "./server-express.js",
   "scripts": {
-    "start": "nmp install ; node server-express.js",
+    "start": "install ; node server-express.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
