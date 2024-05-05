@@ -101,7 +101,7 @@
 				"id": "a13e6723-fe67-48f8-b5c9-0d029225ae1b",
 				"nombre": "Cerveza Corona",
 				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Corona.",
-				"imagen": "/design/cerveza-corona.webp",
+				"imagen": "/design/cerverza-corona.webp",
 				"rate": 4.5,
 				"precio": 250
 			},
@@ -109,7 +109,7 @@
 				"id": "081f1115-707f-43ac-8681-74d2be90af78",
 				"nombre": "Cerveza Carlsberg",
 				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Corona.",
-				"imagen": "/design/cerverza-carlsberg.webp",
+				"imagen": "/design/cerveza-carlsberg.webp",
 				"rate": 3.5,
 				"precio": 230
 			},
