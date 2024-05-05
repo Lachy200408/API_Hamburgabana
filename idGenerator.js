@@ -1,5 +1,6 @@
 const crypto = require('node:crypto')
 
-const id = crypto.randomUUID();
-
-console.log(id);
+for (let i = 0; i < 11; i++) {
+  const id = crypto.randomUUID()
+  console.log(id)
+}

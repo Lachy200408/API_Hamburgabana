@@ -36,7 +36,7 @@
 				"precio": 600
 			},
 			{
-				"id": "ef7b5518-ea4a-4556-bb9a-dddfa760aab7",
+				"id": "ef7b5518-ea4a-4556-bb9a-dddfa760aa67",
 				"nombre": "Sandwich imperial",
 				"descripcion": "Un sandwich de varios niveles con abundante queso, mayonesa, bacon, lechuga, tomate, cebolla y lomo de cerdo.",
 				"imagen": "/design/sandwich-imperial.webp",
@@ -52,23 +52,257 @@
 				"precio": 150
 			},
 			{
-				"id": "ef7b5518-ea4a-4556-bb1a-dddfa360aab7",
+				"id": "ef7b5518-ea4a-4556-bb1a-ddd6a360aab7",
 				"nombre": "Hotdog doble",
 				"descripcion": "Un pan con dos perros calientes acompanado de la clasica mostaza, el ketchup y con cebollas caramelizadas encima.",
 				"imagen": "/design/hotdog-doble.webp",
 				"rate": 4,
 				"precio": 300
+			},
+			{
+				"id": "e0d2ebea-65dd-4067-82ca-318835f47b81",
+				"nombre": "Sandwich simple",
+				"descripcion": "El sandwich clásico con jamón, lechón o bacon, acompañado de queso, tomate y lechuga.",
+				"imagen": "/design/sandwich-simple.webp",
+				"rate": 4,
+				"precio": 150
+			},
+			{
+				"id": "bdd2f920-a6b6-4e50-a90c-ccb2fa667f10",
+				"nombre": "Sandwich de res",
+				"descripcion": "Un pan con ropa vieja de res, con pimientos y cebolla, acompañado de rábano y remolacha al gusto.",
+				"imagen": "/design/sandwich-res.webp",
+				"rate": 2.5,
+				"precio": 200
+			},
+			{
+				"id": "ef8c6ebb-08b3-4b84-9fab-7eda6d21da04",
+				"nombre": "Sandwich de jamón",
+				"descripcion": "Un pan con múltiples lascas de jamón de varios tipos, aderezado con pasta de bocadito, mayonesa y con vegetales.",
+				"imagen": "/design/sandwich-jamon.webp",
+				"rate": 3.5,
+				"precio": 240
+			},
+			{
+				"id": "f48a5f7e-bbec-47b7-a5bd-1afc076050db",
+				"nombre": "Mega sandwich",
+				"descripcion": "Un sandwich gigante con abundante queso, jamón y lomo de cerdo cocido, aliñado con salsa de la casa y acompañado de vegetales",
+				"imagen": "/design/mega-sandwich.webp",
+				"rate": 5,
+				"precio": 500
 			}
 		]
 	},
 	{
 		"kind": "bebidas",
 		"thumbnail": "/design/thumbnail-bebidas.jpg",
-		"products": []
+		"products": [
+			{
+				"id": "a13e6723-fe67-48f8-b5c9-0d029225ae1b",
+				"nombre": "Cerveza Corona",
+				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Corona.",
+				"imagen": "/design/cerveza-corona.webp",
+				"rate": 4.5,
+				"precio": 250
+			},
+			{
+				"id": "081f1115-707f-43ac-8681-74d2be90af78",
+				"nombre": "Cerveza Carlsberg",
+				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Corona.",
+				"imagen": "/design/cerveza-carlsberg.webp",
+				"rate": 3.5,
+				"precio": 230
+			},
+			{
+				"id": "a4a5ce67-3a6b-4271-8fa2-fddab756feec",
+				"nombre": "Cerveza Cristal",
+				"descripcion": "Una fría cerveza enlatada o embotellada de la marca nacional Cristal.",
+				"imagen": "/design/cerveza-cristal.webp",
+				"rate": 5,
+				"precio": 250
+			},
+			{
+				"id": "e95e1c5a-f824-4c43-a6b6-2fe6baf74f28",
+				"nombre": "Cerveza Peroni",
+				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Peroni.",
+				"imagen": "/design/cerveza-peroni.webp",
+				"rate": 3,
+				"precio": 210
+			},
+			{
+				"id": "024b69e5-97e8-4638-b85f-ecd64f03eb48",
+				"nombre": "Cerveza Heineken",
+				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Heineken.",
+				"imagen": "/design/heineken.webp",
+				"rate": 4,
+				"precio": 240
+			},
+			{
+				"id": "80ee3f60-fc0d-483b-80ff-7dbf52626a82",
+				"nombre": "Malta Bucanero",
+				"descripcion": "La mejor mlata de Cuba, la fría malta Bucanero enlatada.",
+				"imagen": "/design/malta-bucanero.webp",
+				"rate": 5,
+				"precio": 200
+			},
+			{
+				"id": "34a36099-7608-4495-8202-aa98933983e2",
+				"nombre": "Ron Añejo Especial",
+				"descripcion": "La botella de un litro del Ron Añejo Especial de Cuba.",
+				"imagen": "/design/ron-añejo-especial.webp",
+				"rate": 3,
+				"precio": 1200
+			},
+			{
+				"id": "e936f8c1-f72d-460b-9d6e-b69b3aa38fb3",
+				"nombre": "Ron Santiago",
+				"descripcion": "La botella de un litro del Ron Santiago de Cuba.",
+				"imagen": "/design/ron-santiago.webp",
+				"rate": 3.5,
+				"precio": 1500
+			},
+			{
+				"id": "3fcb3f72-4c7f-426e-96df-25471f0e1276",
+				"nombre": "Refresco Tu Kola",
+				"descripcion": "El refresco clásico cubano, el enlatado Tu Kola, frío y delicioso.",
+				"imagen": "/design/tu-kola.webp",
+				"rate": 5,
+				"precio": 200
+			},
+			{
+				"id": "09659023-5021-4117-8a52-0226ae706c91",
+				"nombre": "Whisky Chivas Regal",
+				"descripcion": "Una botella de whisky internacional Chivas Regal",
+				"imagen": "/design/whisky-chivas-regal.webp",
+				"rate": 4.5,
+				"precio": 1800
+			}
+		]
 	},
 	{
 		"kind": "postres",
 		"thumbnail": "/design/thumbnail-postres.jpg",
-		"products": []
+		"products": [
+			{
+				"id": "81ec5afb-85f0-4e25-a91b-3d3ba7fe7304",
+				"nombre": "Barquillo doble",
+				"descripcion": "Un barquillo de helado de varios sabores, con dos bolas.",
+				"imagen": "/design/barquillo-chocolate-doble.webp",
+				"rate": 5,
+				"precio": 150
+			},
+			{
+				"id": "142bd17f-3d17-4f26-ade8-14f5062c8d49",
+				"nombre": "Barquillo especial",
+				"descripcion": "Un barquillo de helado de varios sabores, con varias bolas, y trozos de frutas.",
+				"imagen": "/design/barquillo-especial-pistacho.webp",
+				"rate": 4.5,
+				"precio": 200
+			},
+			{
+				"id": "7e7e710b-163a-4c6c-8435-3f5b60cd1185",
+				"nombre": "Brownie de chocolate y maní",
+				"descripcion": "Un delicioso brownie de chocolate y maní acompañado de frutillas.",
+				"imagen": "/design/brownie-chocolate-mani.webp",
+				"rate": 5,
+				"precio": 340
+			},
+			{
+				"id": "14f91b63-ff28-48f8-b501-b61fafa377cd",
+				"nombre": "Cake choco-moras",
+				"descripcion": "Una proción de pastel esponjoso de chocolates y moras, con frutillas.",
+				"imagen": "/design/cake-choco-moras.webp",
+				"rate": 3.5,
+				"precio": 350
+			},
+			{
+				"id": "bcc6d269-86e5-4fdc-9c4e-9800deb48c1e",
+				"nombre": "Chiscake de vainilla",
+				"descripcion": "Una porción de pastel esponjoso de vainilla y dulce de fresas.",
+				"imagen": "/design/chiscake.webp",
+				"rate": 4,
+				"precio": 300
+			},
+			{
+				"id": "fe0910a6-91dc-47de-af2e-3e46a4381a7c",
+				"nombre": "Ensalada de helado",
+				"descripcion": "La clásica ensalada de varias bolas de helado, acompañandas de aderezos, frutillas y caramelos.",
+				"imagen": "/design/ensalada-choco-mani.webp",
+				"rate": 5,
+				"precio": 350
+			},
+			{
+				"id": "a86e53ad-61ba-4693-b04b-9f35c1b2e85e",
+				"nombre": "Tazón multicolor",
+				"descripcion": "Una jarra de helado de varios sabores, con los acompañantes que desee el cliente.",
+				"imagen": "/design/helado-choco-menta.webp",
+				"rate": 4.5,
+				"precio": 320
+			},
+			{
+				"id": "8c321fea-e549-4885-9bd1-64e89495d221",
+				"nombre": "Piña helada",
+				"descripcion": "Una media piña con el jugo dentro y múltiples bolas de helado encima.",
+				"imagen": "/design/helado-choco-pina.webp",
+				"rate": 5,
+				"precio": 500
+			},
+			{
+				"id": "1981a72a-00a6-44f5-9780-2a5a562c81ad",
+				"nombre": "Helado simple",
+				"descripcion": "Una bola de helado de un sabor aderezada y acompañada de frutillas y galletas.",
+				"imagen": "/design/helado-pistacho.webp",
+				"rate": 3.5,
+				"precio": 100
+			},
+			{
+				"id": "b8efb94b-ad52-427f-8f59-e6f6c9f55a04",
+				"nombre": "Helado simple con cake",
+				"descripcion": "Una bola de helado aderezada, sobre un trozo de pastel con frutillas.",
+				"imagen": "/design/helado-vainilla-chocolate.webp",
+				"rate": 4,
+				"precio": 180
+			},
+			{
+				"id": "cff3dd32-9161-466a-b52b-34b760efbe69",
+				"nombre": "Macarrones",
+				"descripcion": "Deliciosos macarrones rellenos con cremas de dulces y frutas.",
+				"imagen": "/design/macarrones.webp",
+				"rate": 4.5,
+				"precio": 50
+			},
+			{
+				"id": "30aa1f3b-b2cf-409e-99d8-77f858c7ff6e",
+				"nombre": "Pai",
+				"descripcion": "El rico pay de todo tipo de sabores tropicales, acompañado de trozos de frutas.",
+				"imagen": "/design/pai-moras.webp",
+				"rate": 5,
+				"precio": 350
+			},
+			{
+				"id": "34ff3c1f-d990-4fce-ab6b-1dd8809a693d",
+				"nombre": "Tarta de queso",
+				"descripcion": "Tarta esponjosa de queso con ciruelas, moras y fresas.",
+				"imagen": "/design/tarta-queso.webp",
+				"rate": 4.5,
+				"precio": 340
+			},
+			{
+				"id": "2a634075-68db-448b-8142-fc8fa161f3d9",
+				"nombre": "Waffles simples",
+				"descripcion": "Waffles dulces acompañados de frutillas.",
+				"imagen": "/design/waffles-naranja.webp",
+				"rate": 4,
+				"precio": 120
+			},
+			{
+				"id": "3afa3ced-a37f-4d56-b7bf-0f0e7a21f457",
+				"nombre": "Waffles con miel",
+				"descripcion": "Waffles dulces aderezados con miel y con crema de frutas dentro.",
+				"imagen": "/design/waffles-miel.webp",
+				"rate": 4,
+				"precio": 120
+			}
+		]
 	}
 ]
