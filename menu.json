@@ -109,7 +109,7 @@
 				"id": "081f1115-707f-43ac-8681-74d2be90af78",
 				"nombre": "Cerveza Carlsberg",
 				"descripcion": "Una fría cerveza enlatada o embotellada de la marca internacional Corona.",
-				"imagen": "/design/cerveza-carlsberg.webp",
+				"imagen": "/design/cerverza-carlsberg.webp",
 				"rate": 3.5,
 				"precio": 230
 			},
@@ -149,7 +149,7 @@
 				"id": "34a36099-7608-4495-8202-aa98933983e2",
 				"nombre": "Ron Añejo Especial",
 				"descripcion": "La botella de un litro del Ron Añejo Especial de Cuba.",
-				"imagen": "/design/ron-añejo-especial.webp",
+				"imagen": "/design/ron-anejo-especial.webp",
 				"rate": 3,
 				"precio": 1200
 			},
