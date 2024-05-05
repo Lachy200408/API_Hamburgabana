@@ -30,7 +30,7 @@
 			{
 				"id": "a8f3535e-2a01-4f76-b995-a0c4fc40cfec",
 				"nombre": "Mega burger",
-				"descripcion": "Un pan con multiples capas de hamburguesas de varias carnes y quesos, con tomates, pepinillos, lechuga y cebolla.",
+				"descripcion": "Un pan con múltiples capas de hamburguesas de varias carnes y quesos, con tomates, pepinillos, lechuga y cebolla.",
 				"imagen": "/design/mega-burger.webp",
 				"rate": 4.5,
 				"precio": 600
@@ -273,7 +273,7 @@
 			},
 			{
 				"id": "30aa1f3b-b2cf-409e-99d8-77f858c7ff6e",
-				"nombre": "Pai",
+				"nombre": "Pay",
 				"descripcion": "El rico pay de todo tipo de sabores tropicales, acompañado de trozos de frutas.",
 				"imagen": "/design/pai-moras.webp",
 				"rate": 5,
